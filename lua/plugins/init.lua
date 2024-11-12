@@ -297,6 +297,15 @@ local default_plugins = {
         event = "VeryLazy",
         opts = {},
         config = function(_, opts) require 'lsp_signature'.setup(opts) end
+    },
+    {
+        "sindrets/diffview.nvim",
+        cmd = { "DiffviewOpen", "DiffviewClose", "DiffviewToggleFiles", "DiffviewFocusFiles", "DiffviewRefresh" },
+        config = function()
+            require("diffview").setup({
+                use_icons = true,
+            })
+        end
     }
 
 }

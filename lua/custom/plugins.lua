@@ -12,7 +12,6 @@ local plugins = {
             ensure_installed = {
                 "clangd",
                 "clang-format",
-                "asm-lsp",
                 "rust-analyzer",
             }
         }
