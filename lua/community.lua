@@ -11,5 +11,6 @@ return {
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.rose-pine" },
   { import = "astrocommunity.motion.leap-nvim" },
+  { import = "astrocommunity.git.diffview-nvim" },
   -- import/override with your plugins folder
 }
