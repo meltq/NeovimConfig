@@ -64,6 +64,7 @@ return {
 
         -- setting a mapping to false will disable it
         -- ["<C-S>"] = false,
+        ["<leader>a"] = { '"_d', desc = "Delete without copying to clipboard" },
       },
     },
   },
