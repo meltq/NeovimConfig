@@ -10,5 +10,6 @@ return {
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.rose-pine" },
+  { import = "astrocommunity.motion.leap-nvim" },
   -- import/override with your plugins folder
 }

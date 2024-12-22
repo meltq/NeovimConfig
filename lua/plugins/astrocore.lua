@@ -66,6 +66,9 @@ return {
         -- ["<C-S>"] = false,
         ["<leader>a"] = { '"_d', desc = "Delete without copying to clipboard" },
       },
+      v = {
+        ["<leader>a"] = { '"_d', desc = "Delete without copying to clipboard" },
+      },
     },
   },
 }
